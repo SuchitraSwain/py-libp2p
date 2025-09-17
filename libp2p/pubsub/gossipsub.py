@@ -168,7 +168,6 @@ class GossipSub(IPubsubRouter, Service):
         await self.manager.wait_finished()
 
     # Interface functions
-
     def get_protocols(self) -> list[TProtocol]:
         """
         :return: the list of protocols supported by the router
